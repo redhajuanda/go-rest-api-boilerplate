@@ -1,9 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
-	"github.com/redhajuanda/rest-api-boilerplate/common"
+	"rest-api-boilerplate/common"
 
 	"github.com/joho/godotenv"
 )
@@ -16,6 +17,7 @@ func init() {
 }
 
 func main() {
+	fmt.Println("te")
 	app := App{}
 	app.Initialize()
 	defer common.CloseDB()

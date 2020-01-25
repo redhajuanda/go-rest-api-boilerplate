@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/redhajuanda/rest-api-boilerplate/api"
+	"rest-api-boilerplate/api"
 
-	"github.com/redhajuanda/rest-api-boilerplate/common"
+	"rest-api-boilerplate/common"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
